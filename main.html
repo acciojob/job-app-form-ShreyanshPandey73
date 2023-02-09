@@ -29,8 +29,8 @@
 	<br>
 	<label for="laptop">Laptop Brands</label>
 
-<select id="laptop">
-    <option value="">--Please choose an option--</option>
+<select id="laptop" aria-required>
+    <option value="" >--Please choose an option--</option>
     <option value="apple">Apple</option>
     <option value="asus">Asus</option>
     <option value="hp">HP</option>
@@ -45,7 +45,8 @@
 	<label for="password">Password*</label>
 	<input type="password" id ="password" required>
 	<br>
-	<button>submit button</button>
+		<label for="submit">submit button</label>
+	<button id="submit">submit button</button>
 </form>
 </body>
 </html>
